@@ -22,8 +22,7 @@ mvn spring-boot:run
 The API will be accessible at `http://localhost:8080/api/menu`.
 
 ## API Endpoints & Testing
-
-Here are the available API endpoints and examples of their usage, as tested via Postman.
+Here are some of the API endpoints we have tested using Postman. Note that these are selected examples; additional screenshots of our testing can be found in the `screenshoots` folder of this project.
 
 ### 1. Get All Menu Items
 Retrieves a list of all menu items.
