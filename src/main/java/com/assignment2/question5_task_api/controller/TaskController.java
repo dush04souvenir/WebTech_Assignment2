@@ -11,7 +11,7 @@ import com.assignment2.question5_task_api.model.Task;
 public class TaskController {
     private List<Task> tasks = new ArrayList<>();
 
-    // Constructor – add sample tasks
+    // Constructor to initialize some sample tasks
     public TaskController() {
         tasks.add(new Task(1L, "Study Java", "Learn Spring Boot basics",
                 false, "HIGH", "2026-02-15"));
@@ -21,7 +21,7 @@ public class TaskController {
                 true, "LOW", "2026-02-10"));
     }
 
-    // 1️⃣ GET all tasks
+    // GET all tasks
     @GetMapping
     public List<Task> getAllTasks() {
         return tasks;
